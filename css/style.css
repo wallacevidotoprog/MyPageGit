@@ -109,4 +109,7 @@ section{
     main div span{
         font-size: 16px;
     }
+    main nav ul{
+        flex-direction: row;
+    }
 }
