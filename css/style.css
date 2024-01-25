@@ -46,7 +46,6 @@ main div span{
     font-size: 25px;
     text-align: center;
     color: var(--cor_c1);
-    margin: 20px;
 }
 main .media{
     margin-top: auto; 
@@ -57,7 +56,8 @@ main .media a img{
     display: flex;
     border-radius: 0;
     width: 50px;
-    height: 50px;    
+    height: 50px;
+    margin: 5px;    
 }
 main nav ul{
     display: flex;
