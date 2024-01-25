@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed:wght@100;900 & display=swap');
+:root{
+
+    --cor_b:#101010;
+    --cor_c:#303030;
+    --cor_c1:#747474;
+    --cor_g:#ccff33 ;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: var(--cor_b);
+    color: var(--cor_g);
+    display: flex;
+
+}
+main,section{
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor_c);
+    width: 300px;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+   
+
+}
+main img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+main div span{
+    padding-top:  40px;
+    font-size: 30px;
+    text-align: center;
+    color: var(--cor_c1);
+}
+main .media{
+    
+}
+main .media a img{
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
+}
+section{
+    background-color: var(--cor_b);
+    width: 100%;
+    
+}
+@media only screen AND (max-width: 1065px){
+    main img{
+        width: 150px;
+        height: 150px;
+    }
+    main{
+        width: 300px;
+
+    }
+    main .media a img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media only screen AND (max-width: 517px){
+    main img{
+        width: 130px;
+        height: 130px;
+    }
+    main{
+        width: 300px;
+    }
+    main .media a img{
+        width: 30px;
+        height: 30px;
+    }
+}
