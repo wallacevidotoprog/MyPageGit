@@ -38,18 +38,20 @@ main img{
     margin: 10px;
 }
 main div span{
-    padding-top:  40px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: var(--cor_c1);
 }
 main .media{
-    
+    margin-top: auto; 
+    display: flex;  
 }
 main .media a img{
+    display: flex;
     border-radius: 0;
     width: 50px;
-    height: 50px;
+    height: 50px;    
+    justify-content: end;
 }
 section{
     background-color: var(--cor_b);
@@ -63,11 +65,12 @@ section{
     }
     main{
         width: 300px;
-
     }
     main .media a img{
-        width: 40px;
-        height: 40px;
+        margin: 5px;        
+    }
+    main div span{
+        font-size: 20px;
     }
 }
 @media only screen AND (max-width: 517px){
@@ -79,7 +82,11 @@ section{
         width: 300px;
     }
     main .media a img{
-        width: 30px;
-        height: 30px;
+        margin: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    main div span{
+        font-size: 16px;
     }
 }
