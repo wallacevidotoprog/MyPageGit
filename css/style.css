@@ -10,6 +10,11 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    color: #ccff33;
+
 }
 body{
     background-color: var(--cor_b);
@@ -31,7 +36,7 @@ main{
    
 
 }
-main img{
+main .avatar{
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -41,9 +46,11 @@ main div span{
     font-size: 25px;
     text-align: center;
     color: var(--cor_c1);
+    margin: 20px;
 }
 main .media{
     margin-top: auto; 
+    margin-bottom: 10px;
     display: flex;  
 }
 main .media a img{
@@ -51,7 +58,20 @@ main .media a img{
     border-radius: 0;
     width: 50px;
     height: 50px;    
-    justify-content: end;
+}
+main nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+main nav ul li a{
+    display: flex;
+}
+.imgs{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
 }
 section{
     background-color: var(--cor_b);
@@ -82,7 +102,7 @@ section{
         width: 300px;
     }
     main .media a img{
-        margin: 5px;
+        margin: 5,px;
         width: 40px;
         height: 40px;
     }
